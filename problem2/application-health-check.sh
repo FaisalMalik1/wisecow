@@ -13,7 +13,7 @@ up_time_duration=0                     # Duration in seconds the app has been up
 # Function to convert seconds to human-readable format
 convert_seconds_to_human_readable() {
     local seconds=$1
-    printf '%02dh:%02dm:%02ds\n' $(($seconds/3600)) $(($seconds%3600/60)) $(($seconds%60))
+    printf '%02dh:%02dm:%02ds\n' $(($seconds/3600)) $(($seco00/60)) $(($seconds%60))
 }
 
 # Function to check application status
